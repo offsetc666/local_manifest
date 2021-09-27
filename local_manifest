@@ -4,12 +4,14 @@
            fetch="https://github.com/deadline646" />
         <remote  name="aseelps"
             fetch="https://github.com/aseelps" />
+        <remote  name="mibengal"
+            fetch="https://github.com/MiBengal-Development" />
 	
 	<!-- Device Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="deadline646" revision="update-kernel" clone-depth="1" />
 	
         <!-- Kernel Trees -->
-        <project path="kernel/xiaomi/juice" name="" remote="deadline646" revision="" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mibengal" revision="11.0" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="deadline646" revision="master" clone-depth="1" />
  
 	<!-- Vendor Trees -->
