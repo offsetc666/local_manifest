@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="deadline646"
+           fetch="https://github.com/deadline646" />
+
+	
+	<!-- Device Trees -->
+        <project path="device/xiaomi/juice" name="device_xiaomi_citrus" remote="deadline646" revision="10" clone-depth="1" />
+	
+        <!-- Kernel Trees -->
+        <project path="kernel/xiaomi/juice" name="unicorn_kernel_citrus" remote="deadline646" revision="10" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="deadline646" revision="master" clone-depth="1" />
+ 
+	<!-- Vendor Trees -->
+        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_citrus" remote="deadline646" revision="10" clone-depth="1" />
+
+</manifest>
